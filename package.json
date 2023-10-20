@@ -1,0 +1,27 @@
+{
+  "name": "ts-template",
+  "version": "0.1.0",
+  "description": "Maetel's typescript template",
+  "main": "index.js",
+  "scripts": {
+    "build":"esbuild index.ts --bundle --sourcemap --outdir=dist",
+    "dev":"esbuild index.ts --bundle --sourcemap --outdir=dist --watch",
+    "start" : "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Maetel/ts-template.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Maetel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maetel/ts-template/issues"
+  },
+  "homepage": "https://github.com/Maetel/ts-template#readme",
+  "devDependencies": {
+    "esbuild": "0.19.5"
+  }
+}
